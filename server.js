@@ -10,7 +10,7 @@ var cheerio = require("cheerio");
 // Require all models
 var db = require("./models");
 
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 // Initialize Express
 var app = express();
@@ -38,6 +38,9 @@ console.log("\n***********************************\n" +
             "Grabbing every thread name and link\n" +
             "from reddit's webdev board:" +
             "\n***********************************\n");
+
+           
+
 
 //GET - articles from the original site
 app.get("/scrape", function(req, res) {
