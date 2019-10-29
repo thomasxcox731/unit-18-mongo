@@ -1,0 +1,21 @@
+{
+  "name": "unit-18-mongo",
+  "version": "1.0.0",
+  "description": "This is the repository for Unit 18: MongoDB and Mongoose.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasxcox731/unit-18-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasxcox731/unit-18-mongo/issues"
+  },
+  "homepage": "https://github.com/thomasxcox731/unit-18-mongo#readme"
+}
