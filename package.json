@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/thomasxcox731/unit-18-mongo/issues"
   },
-  "homepage": "https://github.com/thomasxcox731/unit-18-mongo#readme"
+  "homepage": "https://github.com/thomasxcox731/unit-18-mongo#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "axios": "^0.19.0",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {}
 }
