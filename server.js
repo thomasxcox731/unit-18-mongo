@@ -27,3 +27,19 @@ app.use(express.static("public"));
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
+
+//ROUTES
+
+//GET - articles from the original site
+
+//GET - articles back from the db
+
+//GET - articles from id, populate with notes
+
+//POST - save notes to articles
+
+// Start the server
+app.listen(PORT, function() {
+    console.log("App running on port " + PORT + "!");
+  });
+  
